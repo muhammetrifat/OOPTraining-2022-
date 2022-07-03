@@ -12,6 +12,7 @@ namespace OOP3
             ICreditManager mortgageLoanManager = new MortgageLoanManager();
             ICreditManager businessLoanManager = new BusinessLoanManager();
 
+
             ILoggerService databaseLoggerService = new DatabaseLoggerService();
             ILoggerService fileLoggerService = new DatabaseLoggerService();
             ILoggerService smsLoggerService = new SmsLoggerService();
